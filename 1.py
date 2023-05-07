@@ -1,7 +1,7 @@
 import tensorflow as tf 
 
 #定义一个随机数(标量)
-random_float = tf.random.uniform(shap=())
+random_float = tf.random.uniform(shape=())
 
 #定义一个有两个元素的0向量
 zero_vector = tf.zeros(shape=(2))
